@@ -1,0 +1,17 @@
+## a number 1 is included at the end to mark a completion as "more correct"
+## a 0 if it is less correct
+## \nil marks a line where context is not needed
+## will add more sentences later
+
+এজন ল’ৰা আৰু এজনী ছোৱালী এটা কোঠাৰ ভিতৰত সোমাই গ’ল।,A boy and a girl entered a room.
+    ল’ৰাজন বহিল।,The boy sat down.,1
+    এজন ল’ৰা বহিল।,A boy sat down.,0
+টেবুলখনত দুটা মেকুৰী আছে।,There are two cats on the table.
+    এটা মেকুৰী তললৈ জপিয়াই পৰে।,One cat jumps down.,1
+    মেকুৰীটোৱে তললৈ জপিয়াই পৰে,The cat jumps down.,0
+দুজন মানুহে কথা পাতি আছিল।,Two men were talking.
+    এজন মানুহে গান গাবলৈ ধৰিলে।,One man started to sing.,1
+    মানুহজনে গান গাবলৈ ধৰিলে।,The man started to sing.,0
+\nil
+    টেবুলখনত দুটা মেকুৰী আছে।,There are two cats on the (preferred classifier) table.,1
+    টেবুলজনত দুটা মেকুৰী আছে।,There are two cats on the (incorrect classifier) table.,0
