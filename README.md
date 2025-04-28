@@ -8,7 +8,7 @@ The file "bertlike_models.ipynb" is the main runnable file, which tests sentence
 
 (Currently, there are only a few documents for testing purposes; more will be made later)
 
-WIP: The file "bengali_model_adaptation.ipynb" is the (unfinished) file where we will retrain a pretrained Bengali/Bangla model, but adapted to Assamese. We will then use the same surprisal evaluation as for the first task to compare it to the existing models. The "assamese_corpus" folder is intended to house the corpus I use to train it.
+WIP: The file "bengali_model_adaptation.ipynb" is the (unfinished) file where we will retrain a pretrained Bengali/Bangla model, but adapted to Assamese. We will then use the same surprisal evaluation as for the first task to compare it to the existing models. The "assamese_corpus" folder is intended to house the corpus I use to train it. Please do not try to run it currently.
 
 # Files and Folders
 The files "bertlike_models.ipynb" and "bengali_model_adaptation.ipynb" are the main runnable files, as explained above.
@@ -25,4 +25,4 @@ The folder "access_items" holds huggingface keys and api keys. Github does not a
 
 The folder "licenses" contains licenses for libraries used.
 
-The folder "wip_or_not_used" is a folder for things that are still being figured out and should NOT be run.
+The folder "wip_or_not_used" is a folder for things that are still being figured out and should NOT be run. Please do not run the files within it.
