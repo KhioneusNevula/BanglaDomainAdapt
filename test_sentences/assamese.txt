@@ -1,17 +1,63 @@
 ## a number 1 is included at the end to mark a completion as "more correct"
 ## a 0 if it is less correct
 ## \nil marks a line where context is not needed
-## will add more sentences later
 
-এজন ল’ৰা আৰু এজনী ছোৱালী এটা কোঠাৰ ভিতৰত সোমাই গ’ল।,A boy and a girl entered a room.
-    ল’ৰাজন বহিল।,The boy sat down.,1
-    এজন ল’ৰা বহিল।,A boy sat down.,0
-টেবুলখনত দুটা মেকুৰী আছে।,There are two cats on the table.
-    এটা মেকুৰী তললৈ জপিয়াই পৰে।,One cat jumps down.,1
-    মেকুৰীটোৱে তললৈ জপিয়াই পৰে,The cat jumps down.,0
-দুজন মানুহে কথা পাতি আছিল।,Two men were talking.
-    এজন মানুহে গান গাবলৈ ধৰিলে।,One man started to sing.,1
-    মানুহজনে গান গাবলৈ ধৰিলে।,The man started to sing.,0
+এজন ল’ৰা আৰু এজনী ছোৱালী এটা কোঠাটোলৈ সোমাই গ’ল।::A boy and a girl entered a room.
+    ল’ৰাজন বহিলে।::The boy sat down.::1
+    এজন ল’ৰা বহিলে।::A boy sat down.::0
+
+টেবুলখনত দুটা মেকুৰী বহি আছে।::There are two cats sitting on the table.
+    এটা মেকুৰী তললৈ জপিয়াই পৰে।::One cat jumps down.::1
+    মেকুৰীটোৱে তললৈ জপিয়াই পৰে।::The cat jumps down.::0
+
+দুজন মানুহে কথা পাতি আছিলে।::Two men were talking.
+    এজন মানুহে গান গাবলৈ ধৰিলে।::One man started to sing.::1
+    মানুহজনে গান গাবলৈ ধৰিলে।::The man started to sing.::0
+
+দুটা কেক আৰু দুটা কুকিজ।::I bought two cakes and two cookies.
+    কুকিজ দুটা পিছত খাম।::I'll eat the two cookies later.::1
+    দুটা কুকিজ পিছত খাম।::I'll eat two cookies later.::0
+
+কুকুৰটোৰ চাৰিটা পোৱালি আছিলে::The dog has four puppies
+    কিন্তু দুটা পোৱালি মৰিলে।::but two puppies died.::1
+    কিন্তু পোৱালি দুটা মৰিলে।::but the two puppies died.::0
+
 \nil
-    টেবুলখনত দুটা মেকুৰী আছে।,There are two cats on the (preferred classifier) table.,1
-    টেবুলজনত দুটা মেকুৰী আছে।,There are two cats on the (incorrect classifier) table.,0
+    সূৰ্য্যতুই পোহৰ দিয়ে।::The sun gives light.::1
+    এটা সূৰ্য্যই পোহৰ দিয়ে।::A sun gives light.::0
+
+আকাশত চাৰিটা বিমান আছে।::There are four planes in the sky.
+    নাই, তিনিখন বিমান আছে।::No, there are three planes.::1
+    নাই, বিমান তিনিখন আছে।::No, there are the three planes.::0
+
+
+
+
+এজন ৰজা আৰু এগৰাকী ৰাণী এটা কোঠাটোলৈ সোমাই গ’ল।::A king and a queen entered a room.
+    ৰাণীগৰাকী বহিলে।::The queen sat down.::1
+    এগৰাকী ৰাণী বহিলে।::A queen sat down.::0
+
+বিচনাত তিনিটা ল'ৰা শুই আছে।::There are three boys sleeping in the bed.
+    দুটা ল’ৰা সাৰ পায়।::Two boys wake up.::1
+    ল’ৰা দুটা সাৰ পায়।::The two boys wake up.::0
+
+তিনিজনী ছোৱালী কথা পাতি আছিলে।::Three girls were talking.
+    দুজনী ছোৱালীয়ে হাঁহিবলৈ ধৰিলে।::Two girls started laughing.::1
+    ছোৱালী দুজনীয়ে হাঁহিবলৈ ধৰিলে।::The two girls started laughing.::0
+
+তিনিটা কেক আৰু তিনিটা কুকিজ।::I bought three cakes and three cookies.
+    কুকিজ তিনিটা পিছত খাম।::I'll eat the three cookies later.::1
+    তিনিটা কুকিজ পিছত খাম।::I'll eat three cookies later.::0
+
+মেকুৰীটোৰ চাৰিটা মাইকী পোৱালি আৰু দুটা মতা পোৱালি আছিলে::The cat has four female kittens and two male kittens
+    কিন্তু মতা পোৱালি দুটা মৰিলে।::but the two male kittens died.::1
+    কিন্তু দুটা মতা পোৱালি মৰিলে।::but two male kittens died.::0
+
+\nil
+    পৃথিৱীখন কিছু ধুনীয়া।::The Earth is so beautiful.::1
+    এখন পৃথিৱী কিছু ধুনীয়া।::An Earth is so beautiful.::0
+
+মোৰ পাঁচটা আপেল আছে।::I have five apples.
+    নাই, তোমাৰ তিনিটা আপেল আছে।::No, you have three apples.::1
+    নাই, তিনিটা তোমাৰ আপেল আছে।::No, you have the three apples.::0
+

@@ -1,0 +1,68 @@
+## a number 1 is included at the end to mark a completion as "more correct"
+## a 0 if it is less correct
+## \nil marks a line where context is not needed
+
+\nil
+    টেবুলখনত দুটা মেকুৰী আছে।::There are two cats on the (preferred classifier) table.::1
+    টেবুলজনত দুটা মেকুৰী আছে।::There are two cats on the (incorrect classifier) table.::0
+\nil
+    লাঠিডাল দলিয়াই দিয়া।::Throw the stick (preferred classifier).::1
+    লাঠিখন দলিয়াই দিয়া।::Throw the stick (incorrect classifier).::0
+\nil
+    গছজোপা ইমান ওখ।::The tree is so tall (preferred classifier).::1
+    গছখন ইমান ওখ।::The tree is so tall (incorrect classifier).::0
+\nil
+    মোৰ দুটা কমলা আছে।::I have two oranges (preferred/default classifier).::1
+    মোৰ দুখন কমলা আছে।::I have two oranges (incorrect classifier).::0
+
+\nil
+    ব্ৰিটেইনৰ ৰাণী এগৰাকী আছে।::Britain has a queen (preferred classifier).::1
+    ব্ৰিটেইনৰ ৰাণী এখন আছে।::Britain has a queen (incorrect classifier).::0
+
+\nil
+    ব্ৰিটেইনৰ এগৰাকী ৰাণী আছে।::Britain has one queen (preferred classifier).::1
+    ব্ৰিটেইনৰ এখন ৰাণী আছে।::Britain has one queen (incorrect classifier).::0
+
+মোৰ হাতত দুখন কাগজ আছে।::I have two papers (in my hand).
+    মই তোমাক এখন দিম।::I will give you one (preferred classifier).::1
+    মই তোমাক এজোপা দিম।::I will give you one (incorrect classifier).::0
+
+প্লেটখনত দুটা আপেল আছে।::There are two apples on the plate.
+    মোক ডাঙৰটো দিয়া।::Give the big one to me (preferred/default classifier).::1
+    মোক ডাঙৰখন দিয়া।::Give the big one to me (incorrect classifier).::0
+
+দুখন গাড়ী বেচি আছে।::They are selling two cars.
+    সেইখন কিনা।::Buy that one (preferred classifier).::1
+    সেইজন কিনা।::Buy that one (incorrect classifier).::0
+
+
+
+
+\nil
+    টেবুলখনত দুটা মেকুৰী আছে।::There are two (preferred/default classifier) cats on the table.::1
+    টেবুলখনত দুখন মেকুৰী আছে।::There are two (incorrect classifier) cats on the table.::0
+\nil
+    বলটো দলিয়াই দিয়া।::Throw the ball (preferred/default classifier).::1
+    বলডাল দলিয়াই দিয়া।::Throw the ball (incorrect classifier).::0
+\nil
+    ৰাস্তাটো ইমান লম্বা।::The road is so long (preferred/default classifier).::1
+    ৰাস্তাজোপা ইমান লম্বা।::The road is so long (incorrect classifier).::0
+\nil
+    কেঁচিপাত আনি দিয়া।::Bring the scissors (preferred classifier).::1
+    কেঁচিজন আনি দিয়া।::Bring the scissors (incorrect classifier).::0
+
+\nil
+    ব্ৰিটেইনত চাৰিখন দেশ আছে।::Britain has four countries (preferred classifier).::1
+    ব্ৰিটেইনত চাৰিপাত দেশ আছে।::Britain has four countries (incorrect classifier).::0
+
+মোৰ হাতত তিনিটা কল আছে।::I have three bananas (in my hand).
+    মই তোমাক দুটা দিম।::I will give you two (preferred classifier).::1
+    মই তোমাক দুখন দিম।::I will give you two (incorrect classifier).::0
+
+টেবুলখনত তিনিটা কলম আছে।::There are three pens on the table.
+    ৰঙাটো দিয়া।::Give the red one to me (preferred/default classifier).::1
+    ৰঙাজোপা দিয়া।::Give the red one to me (incorrect classifier).::0
+
+তেওঁলোকৰ মেকুৰী বা কুকুৰ আছে নে?::Do they have cats or dogs?
+    এইজনীৰ এটা কুকুৰ আছে।::This one (girl, preferred classifier) has a dog.::1
+    এইখনৰ এটা কুকুৰ আছে।::This one (incorrect classifier) has a dog.::0
